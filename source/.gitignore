@@ -1,0 +1,5 @@
+node_modules
+.netlify
+dist
+test/out
+test/shots

@@ -1,0 +1,22 @@
+{
+  "name": "felha",
+  "version": "1.0.0",
+  "description": "فلها — ألعاب الشلة أونلاين",
+  "scripts": {
+    "build": "node build.mjs",
+    "site": "node build.mjs && rm -rf ../site-tmp && cp -r dist ../site-tmp",
+    "test": "sh test/run.sh"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@fontsource-variable/changa": "^5.3.0",
+    "@fontsource/lalezar": "^5.3.0",
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.65.1"
+  },
+  "private": true
+}
